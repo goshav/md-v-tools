@@ -94,8 +94,8 @@ class SvgCollection extends Collection
 			$viewBox = implode(" ", $box);
 			if( count($box) == 4 )
 			{
-				$width = $this->getWH($m[2]);
-				$height = $this->getWH($m[3]);
+				$width = $this->getWH($box[2]);
+				$height = $this->getWH($box[3]);
 			}
 		}
 
@@ -110,7 +110,7 @@ class SvgCollection extends Collection
 			}
 		}
 
-		$data = substr($data, $pos + 1, $end - $pos - 2);
+		$data = substr($data, $pos + 1, $end - $pos - 1);
 		$data = preg_replace('/>\s+</', '><', $data);
 		$data = preg_replace('/\s{2,}/', ' ', $data);
 		$data = preg_replace('/\s\/>/', '/>', $data);
