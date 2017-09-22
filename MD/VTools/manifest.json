@@ -1,0 +1,22 @@
+{
+	"version": "1.0.1",
+	"title": "View tools module for Elastic CMF Framework.",
+	"plugins": [
+		{
+			"name": "Date",
+			"title": "Format date string"
+		},
+		{
+			"name": "Debug",
+			"title": "Debug pageData value"
+		},
+		{
+			"name": "ShadowSvgIcons",
+			"title": "Render/ready svg icons invisible html map from assets directory"
+		},
+		{
+			"name": "Test",
+			"title": "Test and compare value"
+		}
+	]
+}

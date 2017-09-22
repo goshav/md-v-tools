@@ -1,0 +1,25 @@
+{
+	"name": "rozaverta/md-v-tools",
+	"description": "View tools module for Elastic CMF Framework.",
+	"keywords": ["elastic", "els", "anaconda", "view", "tools"],
+	"homepage": "http://rozaverta.com",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "GoshaV [Maniako]",
+			"email": "gosha@rozaverta.com"
+		}
+	],
+	"require": {
+		"php": ">=5.6.4",
+		"rozaverta/cmf": "~0.0.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"MD\\VTools\\": "MD/VTools/"
+		},
+		"files": [
+			"MD/VTools/func_required.inc.php"
+		]
+	}
+}
