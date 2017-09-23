@@ -1,6 +1,6 @@
 <?php
 
-namespace MD\ShapTorg3\Plugin;
+namespace MD\VTools\Plugin;
 
 use EApp\Cache;
 use EApp\Proto\Plugin;
