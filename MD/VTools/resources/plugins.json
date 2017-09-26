@@ -1,0 +1,25 @@
+{
+	"type": "#/plugins",
+	"items": [
+		{
+			"name": "Date",
+			"title": "Format date string",
+			"class_name": "Date"
+		},
+		{
+			"name": "Debug",
+			"title": "Debug pageData value",
+			"class_name": "Debug"
+		},
+		{
+			"name": "ShadowSvgIcons",
+			"title": "Render/ready svg icons invisible html map from assets directory",
+			"class_name": "ShadowSvgIcons"
+		},
+		{
+			"name": "Test",
+			"title": "Test and compare value",
+			"class_name": "Test"
+		}
+	]
+}

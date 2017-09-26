@@ -2,6 +2,7 @@
 
 namespace MD\VTools\Plugin;
 
+use EApp\App;
 use EApp\Plugin\Shortable;
 use EApp\Proto\Plugin;
 use MD\VTools\Traits\PluginShortTagTrait;
@@ -52,7 +53,7 @@ class Date extends Plugin implements Shortable
 		}
 		else
 		{
-			return \Els::View()->getTpl( $this->get("tpl"), ["date" => $date] );
+			return App::View()->getTpl( $this->get("tpl"), ["date" => $date] );
 		}
 	}
 }
