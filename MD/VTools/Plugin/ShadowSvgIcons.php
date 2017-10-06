@@ -62,9 +62,9 @@ class ShadowSvgIcons extends Plugin
 		$out = '';
 
 		/** @var \MD\VTools\Svg\SvgIcon $item */
-		foreach( $svg as $item)
+		foreach( $svg as $item )
 		{
-			$out .= "\n\t" . $item->getSvg([], 'symbol');
+			$out .= "\n\t" . $item->getSvg(['id' => $this->prefix . $item->getName()], 'symbol');
 		}
 
 		if( strlen($out) )
