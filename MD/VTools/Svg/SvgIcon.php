@@ -38,7 +38,7 @@ class SvgIcon implements Arrayable
 
 	public function getSvgUse( array $attr = [], $prefix = '' )
 	{
-		return '<svg' . $this->getAttr($attr) . '><use xlink:href="#' . $prefix . $this->name . '"</svg>';
+		return '<svg' . $this->getAttr($attr) . '><use xlink:href="#' . $prefix . $this->name . '"></use></svg>';
 	}
 
 	/**
